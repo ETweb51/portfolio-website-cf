@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact ET</title>
+    <title>Contact Ertugrul</title>
     <!-- Add your own favicon here -->
     <link rel="shortcut icon" href="img/icon.svg">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.production.css">
   </head>
   <body>
@@ -31,30 +31,31 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="contact-main">
       <h1>Contact</h1>
+      <div>
+        Ertugrul<br>
+        Berlin, Germany<br>
+        Tel <a href="tel:+491234567">+49 1234567</a><br>
+        Skype <a href="skype:et@skype.com"> et@skype.com</a><br>
+        <a href="mailto:et@mail.com">et@mail.com</a><br>
+        <a href="mailto:et@mail.com">Contact me</a><br>
+        You can also contact me through the form below:<br>
+      </div>
+      <div>
+        <form action="" method="post" id="contact-form">
+          <label class="standard-label" for="contact-email">Email: </label>
+          <input type="email" id="contact-email" required>
+
+          <label class="standard-label" for="contact-telephone">Telephone: </label>
+          <input type="tel" id="contact-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+
+          <label class="standard-label" for="contact-message">Message: </label>
+          <textarea id="contact-message" maxlength="240" required></textarea>
+          <input type="submit" value="Send message" class="button">
+        </form>
+      </div>
     </main>
-    <div>
-      ET<br>
-      Germany<br>
-      Tel <a href="tel:+491234567">+49 1234567</a><br>
-      Skype <a href="skype:et.don'thaveoneyet"> et.dont'thaveoneyet</a><br>
-      <a href="mailto:et@et-mail.com">et@et-mail.com</a><br>
-      <a href="mailto:et@et-mail.com">Contact me</a>
-    </div>
-    <div>
-      <form action="" method="post" id="contact-form">
-        <label class="standard-label" for="contact-email">Email: </label>
-        <input type="email" id="contact-email" required>
-
-        <label class="standard-label" for="contact-telephone">Telephone: </label>
-        <input type="tel" id="contact-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-
-        <label class="standard-label" for="contact-message">Message: </label>
-        <textarea id="contact-message" maxlength="240" required></textarea>
-        <input type="submit" value="Send message">
-      </form>
-    </div>
     <footer class="page-footer">
       <p>Find me on</p>
       <div class="social-media">
