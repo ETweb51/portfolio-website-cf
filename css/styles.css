@@ -19,12 +19,6 @@ body {
   line-height: var(--line-height);
 }
 
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
 h1 {
   font-size: var(--h1-size);
 }
