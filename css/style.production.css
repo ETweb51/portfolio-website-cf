@@ -154,6 +154,9 @@ a:active {
   p {
     font-size: 30px;
   }
+  svg {
+    width: 100%;
+  }
 }
 
 .button {
