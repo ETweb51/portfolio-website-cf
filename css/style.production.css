@@ -111,6 +111,7 @@ a:active {
  width: 33%;
  margin: 0px 15px;
  padding: 0px 5px;
+ max-width: 500px;
 }
 
 @supports (display: grid) {
@@ -137,10 +138,10 @@ a:active {
     grid-template-columns: 1fr;
   }
 }
-@media all and (min-width: 500px) and (max-width: 750px){
+@media all and (min-width: 501px) and (max-width: 750px){
   .grid {
     -ms-grid-columns: 1fr 20px 1fr;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media all and (max-width: 750px) {
